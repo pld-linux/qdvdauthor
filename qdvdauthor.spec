@@ -10,8 +10,7 @@ URL:		http://qdvdauthor.sourceforge.net/
 BuildRequires:	qt-devel
 BuildRequires:	sed >= 4.0
 BuildRequires:	xine-lib-devel >= 1:1.0.0
-Requires:	dvdauthor >= 0.6.10
-Requires:	mjpegtools >= 1.6.2
+Requires:	dvd-slideshow >= 0.6.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
