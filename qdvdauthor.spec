@@ -1,14 +1,16 @@
 Summary:	QDVDAuthor, the GUI frontend for dvdauthor and other related tools
 Summary(pl):	QDVDAuthor - graficzny interfejs do programu dvdauthor i powi±zanych narzêdzi
 Name:		qdvdauthor
-Version:	0.0.9
-Release:	0.2
+Version:	0.0.10
+Release:	1
 License:	GPL v2
 Group:		Applications/Multimedia
 Source0:	http://dl.sourceforge.net/qdvdauthor/%{name}-%{version}.tar.gz
-# Source0-md5:	465d888ef6f29162fe9b36ff8c49791c
+# Source0-md5:	da494965fb5ed14037acdbdf75af0857
 URL:		http://qdvdauthor.sourceforge.net/
+BuildRequires:	qmake
 BuildRequires:	qt-devel
+BuildRequires:	qt-linguist
 BuildRequires:	sed >= 4.0
 BuildRequires:	xine-lib-devel >= 1:1.0.0
 Requires:	dvd-slideshow >= 0.6.0
@@ -30,11 +32,12 @@ plików DVD VOB.
 %{__sed} -i 's,Categories.*,Categories=Qt;AudioVideo;AudioVideoEditing;,' qdvdauthor.desktop
 %{__sed} -i 's,x23,043,g' qdvdauthor/{qdvdauthor.pro,qplayer/qplayer.pro}
 
-export QTDIR=%{_prefix}
 ./configure \
 	--build-qplayer \
 	--build-qslideshow \
+	--with-mplayer-support \
 	--with-xine-support \
+	--qt-dir=%{_prefix} \
 	--with-qt-lib=%{_libdir}
 
 %install
