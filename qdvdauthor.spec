@@ -1,12 +1,12 @@
 Summary:	QDVDAuthor, the GUI frontend for dvdauthor and other related tools
 Summary(pl):	QDVDAuthor - graficzny interfejs do programu dvdauthor i powi±zanych narzêdzi
 Name:		qdvdauthor
-Version:	0.0.10
+Version:	0.1.0
 Release:	1
 License:	GPL v2
 Group:		Applications/Multimedia
 Source0:	http://dl.sourceforge.net/qdvdauthor/%{name}-%{version}.tar.gz
-# Source0-md5:	da494965fb5ed14037acdbdf75af0857
+# Source0-md5:	6016cae51d2d2be1159c5fd2625d25d4
 URL:		http://qdvdauthor.sourceforge.net/
 BuildRequires:	qmake
 BuildRequires:	qt-devel
@@ -61,10 +61,13 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_datadir}/qdvdauthor
 %lang(de) %{_datadir}/%{name}/qdvdauthor_de.qm
 %lang(es) %{_datadir}/%{name}/qdvdauthor_es.qm
+%lang(fr) %{_datadir}/%{name}/qdvdauthor_fr.qm
 %lang(pl) %{_datadir}/%{name}/qdvdauthor_pl.qm
 %lang(de) %{_datadir}/%{name}/qplayer_de.qm
 %lang(es) %{_datadir}/%{name}/qplayer_es.qm
+%lang(fr) %{_datadir}/%{name}/qplayer_fr.qm
 %lang(de) %{_datadir}/%{name}/qslideshow_de.qm
 %lang(es) %{_datadir}/%{name}/qslideshow_es.qm
+%lang(fr) %{_datadir}/%{name}/qslideshow_fr.qm
 %{_desktopdir}/qdvdauthor.desktop
 %{_pixmapsdir}/qdvdauthor.png
