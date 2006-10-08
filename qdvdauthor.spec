@@ -1,12 +1,12 @@
 Summary:	QDVDAuthor, the GUI frontend for dvdauthor and other related tools
 Summary(pl):	QDVDAuthor - graficzny interfejs do programu dvdauthor i powi±zanych narzêdzi
 Name:		qdvdauthor
-Version:	0.1.2
+Version:	0.1.3
 Release:	1
 License:	GPL v2
 Group:		Applications/Multimedia
 Source0:	http://dl.sourceforge.net/qdvdauthor/%{name}-%{version}.tar.gz
-# Source0-md5:	c0034c2e432299dd62154d0b4f230b7f
+# Source0-md5:	3785f3770dca7cc04287c41f4ff61e51
 URL:		http://qdvdauthor.sourceforge.net/
 BuildRequires:	qmake
 BuildRequires:	qt-devel
