@@ -1,5 +1,5 @@
 Summary:	QDVDAuthor, the GUI frontend for dvdauthor and other related tools
-Summary(pl):	QDVDAuthor - graficzny interfejs do programu dvdauthor i powi±zanych narzêdzi
+Summary(pl.UTF-8):   QDVDAuthor - graficzny interfejs do programu dvdauthor i powiÄ…zanych narzÄ™dzi
 Name:		qdvdauthor
 Version:	0.1.4
 Release:	1
@@ -20,10 +20,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 QDVDAuthor is a GUI frontend for using dvdauthor and dvd-slideshow
 scripts to easily build DVD menus and assemble the DVD VOB files.
 
-%description -l pl
-QDVDAuthor to graficzny interfejs u¿ytkownika do u¿ywania skryptów
-dvdauthor i dvd-slideshow do ³atwego tworzenia menu DVD i sk³adania
-plików DVD VOB.
+%description -l pl.UTF-8
+QDVDAuthor to graficzny interfejs uÅ¼ytkownika do uÅ¼ywania skryptÃ³w
+dvdauthor i dvd-slideshow do Å‚atwego tworzenia menu DVD i skÅ‚adania
+plikÃ³w DVD VOB.
 
 %prep
 %setup -q
