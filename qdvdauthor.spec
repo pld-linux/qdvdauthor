@@ -1,5 +1,5 @@
 Summary:	QDVDAuthor, the GUI frontend for dvdauthor and other related tools
-Summary(pl.UTF-8):   QDVDAuthor - graficzny interfejs do programu dvdauthor i powiązanych narzędzi
+Summary(pl.UTF-8):	QDVDAuthor - graficzny interfejs do programu dvdauthor i powiązanych narzędzi
 Name:		qdvdauthor
 Version:	0.1.4
 Release:	1
