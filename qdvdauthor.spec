@@ -6,7 +6,7 @@ Version:	1.5.0
 Release:	1
 License:	GPL v2
 Group:		Applications/Multimedia
-Source0:	http://downloads.sourceforge.net/%{name}/%{name}-%{version}-2.tar.gz
+Source0:	http://dl.sourceforge.net/qdvdauthor/%{name}-%{version}-2.tar.gz
 # Source0-md5:	1d1f29825fe0ae49faac8a0269c5c550
 URL:		http://qdvdauthor.sourceforge.net/
 BuildRequires:	qmake
